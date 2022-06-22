@@ -81,12 +81,24 @@ while True:
 
     elif "open vs code" in Text:
         os.startfile("E:/Software/Microsoft VS Code/Code.exe")
+        print("Ok, I'll open visual studio code.")
+        speak("Ok, I'll open visual studio code.")
+        add_to_text("user", Text)
+        add_to_text("Kassandra", "Ok, I'll open visual studio code.")
 
     elif "open github desktop" in Text:
         os.startfile("C:/Users/Ranger Omid/AppData/Local/GitHubDesktop/GitHubDesktop.exe")
+        print("Ok, I'll open git hub desktop.")
+        speak("Ok, I'll open git hub desktop.")
+        add_to_text("user", Text)
+        add_to_text("Kassandra", "Ok, I'll open git hub desktop.")
 
     elif "py charm" in Text:
         os.startfile("E:/Software/PyCharm 2021.3/bin/pycharm64.exe")
+        print("Ok, I'll open py charm.")
+        speak("Ok, I'll open py charm.")
+        add_to_text("user", Text)
+        add_to_text("Kassandra", "Ok, I'll open py charm.")
 
     else:
         print(Text)
