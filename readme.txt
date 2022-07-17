@@ -1,0 +1,6 @@
+- This app is a desktop assistant name Kassandra.
+- Kassandra uses AI subsets such as NLP and TTS to communicate with you.
+- She can hear what you say and react the best way possible. SpeechRecognition is the module I used for this.
+- She can also speak back to you and answer your questions. text_to_speech is the module I used for this.
+- Her abilities so far are responding to simple sentences such as hello, how are you and ... , opening any program that you have installed , type and repeat anything you say.
+- She also stores all the time stamped conversations in a txt file so you can see what did you or she had say.
